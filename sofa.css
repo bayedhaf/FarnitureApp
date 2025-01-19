@@ -1,0 +1,32 @@
+
+body{
+    background-color: #f9f9f9;
+    color: #333333;
+}
+.topcontainer{
+    height: 800px;
+    width: 120%;
+    background-image: url(photo/photo_2024-10-19_22-38-51.jpg);
+
+}
+.topcontainer:hover{
+    height: 800px;
+    width: 100%;
+    background-image: url(photo/photo_2024-10-19_22-37-50.jpg);
+
+}
+./* Ensure all images are uniformly larger */
+.img-fluid {
+    width: 100%; /* Adjust width to the container */
+    max-width: 120%; /* Allow scaling beyond container size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Optional: Add hover effect for zooming */
+.img-hover-zoom {
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-hover-zoom:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}

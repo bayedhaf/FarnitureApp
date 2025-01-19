@@ -1,0 +1,33 @@
+body{
+    background-color: #f9f9f9;
+    color: #333333;
+}
+
+./* Ensure all images are uniformly larger */
+.img-fluid {
+    width: 100%; /* Adjust width to the container */
+    max-width: 120%; /* Allow scaling beyond container size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Optional: Add hover effect for zooming */
+.img-hover-zoom {
+    transition: transform 0.1s ease-in-out;
+}
+
+.img-hover-zoom:hover {
+    transform: scale(1.2); /* Slightly enlarge on hover */
+}
+/*for top conatiner*/
+.containertop{
+    height: 900px;
+    width: 100%;
+    background-image: url(photo/photo_2024-10-19_22-39-15.jpg);
+
+}
+.containertop:hover{
+    height: 900px;
+    width: 100%;
+    background-image: url(photo/photo_2024-10-19_22-09-44.jpg);
+
+}
